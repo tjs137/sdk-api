@@ -66,8 +66,7 @@ Retrieves the status of the specified virtual key. The status specifies whether 
 
 Type: <b>int</b>
 
-A virtual key. If the desired virtual key is a letter or digit (A through Z, a through z, or 0 through 9), 
-     <i>nVirtKey</i> must be set to the ASCII value of that character. For other keys, it must be a virtual-key code.
+A <a href="/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a>.
 
 If a non-English keyboard layout is used, virtual keys with values in the range ASCII A through Z and 0 through 9 are used to specify most of the character keys. For example, for the German keyboard layout, the virtual key of value ASCII O (0x4F) refers to the "o" key, whereas VK_OEM_1 refers to the "o with umlaut" key.
 
